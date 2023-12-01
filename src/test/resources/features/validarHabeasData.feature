@@ -1,7 +1,7 @@
-Feature: Add product to cart
-
-  @AddProduct
-  Scenario: Add product to cart success
-    Given that user open page Amazon and search any product
-    When user click  on  product tittle and user click on add to cart
-    Then user can view the product into cart.
+#language: es
+Característica: Validar Habeas Data
+  @ValidacionHabeasData
+  Escenario: Validar Habeas Data
+    Dado que el usuario abre el navegador e ingrese a la sección Portección de datos personales
+    Cuando el usuario confirme ingrese en el Habeas Data Financiero
+    Entonces el usuario podrá validar la información presentada

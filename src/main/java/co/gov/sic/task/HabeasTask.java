@@ -3,22 +3,24 @@ package co.gov.sic.task;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Open;
+import net.serenitybdd.screenplay.actions.Scroll;
+import net.serenitybdd.screenplay.actions.ScrollTo;
 
-import static co.gov.sic.UI.HomeUI.BTN_DATOS;
+import static co.gov.sic.UI.HabeasUI.BTN_HABEAS;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-public class HomeTask implements Task {
+
+public class HabeasTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Open.url("https://www.sic.gov.co/"),
-                Click.on(BTN_DATOS)
+                Scroll.to(BTN_HABEAS),
+                Click.on(BTN_HABEAS)
         );
 
     }
 
-    public static HomeTask on(){
-        return instrumented(HomeTask.class);
+    public static HabeasTask on(){
+        return instrumented(HabeasTask.class);
     }
 
 

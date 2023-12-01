@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8df4a43c-fe20-4242-aa20-e1c389cdc07f" name="Changes" comment="" />
+    <list default="true" id="710c7dcc-cab3-462f-800d-667006c35017" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/UI/HomeUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/UI/ProductDetailsUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/UI/ProductsUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/interactions/GetNameProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/interactions/SelectRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/tasks/DetailsProductTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/tasks/HomeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/tasks/ProductSelectTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/amazon/runners/AmazonRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/amazon/stepDefinitions/AddProductStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/addProductToCart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,20 +35,45 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ProjectId" id="2YcxdDGTfQq9fPpB4MKioiT9yQI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YoJhgzJuaEMgMVjmMiR6sq0VuV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/migue/Downloads/Alerts/Alertas"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8df4a43c-fe20-4242-aa20-e1c389cdc07f" name="Changes" comment="" />
-      <created>1700838758074</created>
+      <changelist id="710c7dcc-cab3-462f-800d-667006c35017" name="Changes" comment="" />
+      <created>1701186120607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700838758074</updated>
+      <updated>1701186120607</updated>
     </task>
     <servers />
   </component>

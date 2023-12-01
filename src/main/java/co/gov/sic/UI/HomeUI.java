@@ -1,18 +1,8 @@
-package com.amazon.UI;
-/*
- * @(#) HomeUI.java 11.0
- * Copyright 2023 SQA. Todos los derechos reservados.
- */
-
+package co.gov.sic.UI;
 
 import net.serenitybdd.screenplay.targets.Target;
-
-/**
- * @autor Rafael Chica
- * @Fecha: --o--
- */
 public class HomeUI {
-    public static Target TXT_SEARCH=Target.the("input search")
-            .locatedBy("//input[@id='twotabsearchtextbox']");
+    public static Target BTN_DATOS=Target.the("datos personales")
+            .locatedBy("//a[@title='Protección de datos personales']");
 
 }
